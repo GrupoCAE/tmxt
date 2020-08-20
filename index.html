@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>.: Transporte MEXTOL :.</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="./js/jquery-1.9.1.min.js"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/runonload.js"></script>
+  	<script src="js/jquery.gcae.sendmail.js"></script>
+  	<script src="js/jquery.gcae.carga.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Transporte MEXTOL</h1>
+		<h2>Servicio de Transporte de Carga Local y Foráneo</h2>
+		<nav>
+			<ul>
+				<li><a href="javascript:muestraSeccion('inicio')">Inicio</a></li>
+				<li><a href="javascript:muestraSeccion('servicios')">Servicios</a></li>
+				<li><a href="javascript:muestraSeccion('flota')">Nuestra Flota</a></li>
+				<li><a href="javascript:muestraSeccion('cobertura')">Cobertura</a></li>
+				<li><a href="javascript:muestraSeccion('contacto')">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="contenedor">
+		<section id="inicio">
+			<article>
+				Transporte MEXTOL
+				<p>
+					Transporte MEXTOL S.R.L. de C.V. es una empresa de servicio de transporte de ligero y pesado tanto local como foráneo, contamos con capacidades desde 1.5 Toneladas hasta camiones con capacidad de arrastre de 20 toneladas.
+				</p>
+			</article>
+		</section>
+		<section id="servicios">
+			<article>
+				Servicios
+				<ul>
+					<li>Transporte de 1, 2 y 3.5 Toneladas</li>
+					<li>Transporte de Caja Seca de 3.5 Toneladas</li>
+					<li>Tracto camiones con Termo refrigerado de 40 pies</li>
+					<li>Tracto camiones con capacidad de arrastre de doble semirremolque</li>
+					<li>Tracto camiones con plataforma</li>
+				</ul>
+				
+			</article>
+		</section>
+		<section id="flota">
+			<article>
+				Nuestra Flota
+				<ul>
+					<li>Camionetas Ford F-350 con Caja Seca de 3.5 Ton</li>
+					<li>Camioneras Nissan Estaquitas de 1.5 Ton</li>
+					<li>Tracto camiones Kenworth con capacidad de arrastre de doble semirremolque</li>
+					<li>Tracto camiones Volvo Thermo Refrigerado</li>
+				</ul>
+			</article>
+		</section>
+		<section id="cobertura">
+			<article>
+				Cobertura 
+				<p>Actualmente estamos dando cobertura los siguientes estados y ciudades.
+					<ul>
+						<li>Ciudad de México - Central de Abasto</li>
+						<li>Ciudad de México - CEDIS WM Cuautitlán</li>
+						<li>Ciudad de México - CEDIS CM Cuautitlán</li>
+						<li>Ciudad de México - Almacen CM Vallejo</li>
+						<li>México - Atizapán</li>
+						<li>México - Huixquilucan</li>
+						<li>México - Metepec</li>
+						<li>México - Naucalpan</li>
+						<li>México - Toluca</li>
+						<li>México - Tultitlan</li>
+						<li>México - Tlalnepantla</li>
+						<li>Chihuahua - Chihuahua</li>
+						<li>Jalisco - Almacen CM Guadalajara</li>
+						<li>Jalisco - Guadalajara CEDIS</li>
+						<li>Michoacán - Apatzingán</li>
+						<li>Morelos - Cuernavaca</li>
+						<li>Morelos - Cuautla</li>
+						<li>Nuevo León - Monterrey</li>
+						<li>Oaxaca - Oaxaca</li>
+						<li>Oaxaca - Salina Cruz</li>
+						<li>Querétaro - Querétaro</li>
+						<li>Querétaro - CEDIS Soriana</li>
+						<li>Sinaloa - Culiacán</li>
+						<li>Tabasco - Villahermosa</li>
+						<li>Veracruz - Puerto de Veracruz</li>
+						<li>Veracruz - El Álamo</li>
+					</ul>
+				</p>
+				Clientes 
+				<p>Actualmente atendemos clientes de diferentes sectores.
+					<ul>
+						<li>Comerciales</li>
+						<li>Farmaceuticos</li>
+						<li>Aduanas</li>
+						<li>Maquinaria Ligera y Pesada</li>
+						<li>Perecederos</li>
+						<li>Electrónica</li>
+					</ul>
+				</p>				
+			</article>
+		</section>
+		<section id="contacto">
+			<article id="formulario">
+				Contacto:
+				<p>
+					Dejanos tus datos y te contactaremos a la brevedad:
+
+					<div id="contact_form">
+						<form id="form" action=""> 
+							<fieldset>
+								<p><label for="name">Nombre:</label></p> 
+								<p><input type="text" id="name" name="name" placeholder="Escribe tu nombre completo"></p>
+
+								<p><label for="email">Email:</label></p> 
+								<p><input type="email" id="email" name="email" placeholder="Escribe tu email"></p> 
+
+								<p><label for="subject">Asunto:</label></p> 
+								<p><input type="text" id="subject" name="subject" placeholder="Asunto"> </p>
+
+								<p><label for="comments">Mensaje:</label></p> 
+								<p><textarea id="comments" name="comments" placeholder="Dejanos tu mensaje"></textarea></p> 
+
+								<p><input type="submit" value="Enviar Mensaje" name="submit" id="submit" class="button"></p>
+							</fieldset> 
+						</form>
+					</div>
+				</p>
+			</article>
+		</section>
+	</div>
+
+	<footer>
+		<p>
+			Transporte MEXTOL S.R.L. de C.V. 2012-2013
+			<br><br>
+			Diseño y Creación <a href="http://www.grupocae.net" target="_blank">Grupo CAE</a>
+
+		</p>
+	</footer>
+</body>
+
